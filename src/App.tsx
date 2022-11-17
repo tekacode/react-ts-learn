@@ -15,8 +15,7 @@ const App:React.FC = () => {
   return (
     <div className="App">
      <span className="heading">Taskfiy</span>
-
-      <FetchApi2 />
+      {/* <FetchApi2 /> */}
       {/* <FetchApi /> */}
      
       {/* <button onClick={() => {
