@@ -19,7 +19,7 @@ const App:React.FC = () => {
     <div className="App">
      <span className="heading">Teka</span>
 
-      <Router>
+      {/* <Router>
         <div>
           <Link to="/">Home</Link>
           <Link to="/myroute">| Router</Link>
@@ -31,7 +31,7 @@ const App:React.FC = () => {
           <Route path='/fetchapi' element={<FetchApi />} />
           <Route path='*' element={<h1>Page Not Found</h1>} />
         </Routes>
-      </Router>
+      </Router> */}
 
       {/* <FetchApi2 /> */}
       {/* <FetchApi /> */}
